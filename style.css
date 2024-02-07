@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #edae48;
+    text-align: center;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 57vmin;
+    width: 57vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+.XorO {
+    height: 16vmin;
+    width: 16vmin;
+    border-radius: 0.8rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    color: #410cd1;
+    background-color: #ffffc7;
+}
+#reset_button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #10100b;
+    color: #f6f2f2;
+    border-radius: 1rem;
+}
+#new_button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #171713;
+    color: #eeebeb;
+    border-radius: 1rem;
+}
+#massage {
+    color: #fafae6;
+    font-size: 3rem;
+}
+.massage_containerr {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide {
+    display: none;
+}
